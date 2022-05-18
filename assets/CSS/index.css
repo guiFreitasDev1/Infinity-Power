@@ -49,18 +49,13 @@
 .divTextoImagemTopo{
     background-color: rgba(0, 0, 0, 0.685);
     display: inline-block;
-    width: 500px;
+    width: 40%;
     padding: 20px;
     margin: 10%;
     color: white;
     
 }
-.divTextoImagemTopo > h1{
-    font-size: 4em;
-}
-.divTextoImagemTopo > p{
-    font-size: 1.8em;
-}
+
 .divTextoImagemTopo > h1, p{
     text-align: center;
     font-family: 'Sriracha', cursive, sans-serif;
@@ -68,3 +63,15 @@
 }
 
 /*Corpo*/
+
+
+
+
+@media (max-width: 1024) {
+    .divTextoImagemTopo > h1{
+    font-size: 2em;
+}
+.divTextoImagemTopo > p{
+    font-size: 1em;
+}
+}
