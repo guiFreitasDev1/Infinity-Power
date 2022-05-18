@@ -119,6 +119,7 @@
 }
 .propagandaNet{
     width: 80%;
+
 }
 }
 
@@ -126,5 +127,13 @@
     .divTextoImagemTopo{
         width: 220px;
         margin: 5%;
+    }
+    .h2PropagandaNet{
+        font-size: 1em;
+        font-family:'Sriracha', cursive, sans-serif;
+    }
+    .pPropagandaNet{
+        font-family:'Sriracha', cursive, sans-serif;
+        font-size: 0.7em;
     }
 }
