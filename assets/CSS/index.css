@@ -32,8 +32,7 @@
     
 }
 
-/*Header*/
-/*Corpo*/ 
+
 
 .divImagemTopo{
     display: block;
@@ -62,12 +61,44 @@
     font-size: 1.8em;
 }
 
-.divTextoImagemTopo > h1, p{
+.divTextoImagemTopo > h1{
     text-align: center;
     font-family: 'Sriracha', cursive, sans-serif;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
 
 }
+.divTextoImagemTopo > p{
+    text-align: center;
+    font-family: 'Sriracha', cursive, sans-serif;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
 
+}
+/*Header*/
+/*Corpo*/ 
+
+.propagandaNet{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.726);
+    width: 500px;
+    padding: 10px;
+    margin: 3%;
+    color: white;
+    border-radius: 10px;
+}
+.h2PropagandaNet{
+    font-size: 2em;
+    font-family:'Sriracha', cursive, sans-serif;
+    text-align: center;
+}
+.pPropagandaNet{
+    font-family:'Sriracha', cursive, sans-serif;
+    font-size: 1.2em;
+}
+.pAmelhorNet{
+    font-size: 1em;
+    font-family:'Sriracha', cursive, sans-serif;
+    text-align: center;
+}
 /*Corpo*/
 
 
@@ -85,6 +116,9 @@
 }
 .heading > h1{
     font-size: 1.3em;
+}
+.propagandaNet{
+    width: 80%;
 }
 }
 
