@@ -49,11 +49,17 @@
 .divTextoImagemTopo{
     background-color: rgba(0, 0, 0, 0.685);
     display: inline-block;
-    width: 40%;
+    width: 500px;
     padding: 20px;
     margin: 10%;
     color: white;
     
+}
+.divTextoImagemTopo > h1{
+    font-size: 4em;
+}
+.divTextoImagemTopo > p{
+    font-size: 1.8em;
 }
 
 .divTextoImagemTopo > h1, p{
@@ -67,11 +73,24 @@
 
 
 
-@media (max-width: 1024) {
+@media (max-width: 1024px)  {
     .divTextoImagemTopo > h1{
     font-size: 2em;
 }
 .divTextoImagemTopo > p{
     font-size: 1em;
 }
+.divTextoImagemTopo{
+    width: 280px; 
+}
+.heading > h1{
+    font-size: 1.3em;
+}
+}
+
+@media (max-width: 400px){
+    .divTextoImagemTopo{
+        width: 220px;
+        margin: 5%;
+    }
 }
