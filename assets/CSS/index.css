@@ -78,7 +78,7 @@
 /*Corpo - Propaganda*/
 .propagandaNet{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: rgba(0, 0, 0, 0.884);
     width: 500px;
     padding: 10px;
     margin: 5%;
@@ -86,12 +86,12 @@
     border-radius: 10px;
     margin-right: 10px;
 }
-.h2PropagandaNet{
+.h2PropagandaNet{  /*Utilizei nas configurações de games também*/
     font-size: 2em;
     font-family:'Sriracha', cursive, sans-serif;
     text-align: center;
 }
-.pPropagandaNet{
+.pPropagandaNet{ /*Utilizei nas configurações de games também*/
     font-family:'Sriracha', cursive, sans-serif;
     font-size: 1.2em;
 }
@@ -108,9 +108,40 @@
 .containerPropaganda1{
     margin: auto;
     text-align: center;
+    padding: 100px;
 }
 /*Corpo - Propaganda*/
+/*Corpo - Propaganda Games*/
+.divImagemGamer{
+    display: block;
+    margin: auto; 
+    width: 100%;
+    height: 620px;
+    background-color: black;
+    background-image: url('../img/img3.jpeg');
+    background-position:  center center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+
+
+/*Corpo - Propaganda Games*/
 /*Corpo*/
+
+/*Footer*/
+
+footer{
+    height: 200px;
+    background-color: black;
+}
+
+
+
+/*Footer*/
 
 
 
